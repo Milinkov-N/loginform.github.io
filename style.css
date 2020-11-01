@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(img/anders-jilden-uwbajDCODj4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 35px auto;
+    position: relative;
+    /* box-shadow: 0 0 20px 0px #ff61241f; */
+    border-radius: 30px;
+    transition: .5s ease;
+}
+
+.button-box:hover { box-shadow: 0 0 20px 0px #ff61241f; }
+
+#btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s ease;
+    text-align: center;
+}
+
+#btn-log { 
+    color: white;
+    width: 105px; 
+    transition: .5s ease; 
+}
+
+#btn-reg { 
+    color: black;
+    width: 105px;  
+    transition: .5s ease; 
+}
+
+.toggle-btn {
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+.social-icons {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 25px;
+    margin: 0 12px;
+    padding: 5px; 
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 25%;
+    /* box-shadow: 0 0 12px 0 rgba(0, 0, 0, .1); */
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.social-icons img:hover { box-shadow: 0 0 12px 0 rgba(0, 0, 0, .1); }
+
+.input-group {
+    position: absolute;
+    top: 180px;
+    width: 280px;
+    transition: .5s ease;
+}
+
+.password {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 5px 0;
+    border-bottom: 1px solid #999;
+    overflow: hidden;
+}
+
+.password .input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.input-group img {
+    position: relative;
+    right: 0;
+    width: 25px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+#eye-seeL {
+    position: relative;
+    right: 0; 
+}
+
+#eye-hideL {
+    position: relative;
+    right: -50px; 
+}
+
+#eye-seeR {
+    position: relative;
+    right: 0;  
+}
+
+#eye-hideR {
+    position: relative;
+    right: -50px; 
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-btn {
+    color: white;
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box { margin: 30px 10px 30px 0; }
+
+.check-box span {
+    position: absolute;
+    bottom: 68px;
+    color: #777;
+    font-size: 12px;
+}
+
+#login { left: 50px; }
+
+#register { left: 450px; }
